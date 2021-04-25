@@ -1,0 +1,22 @@
+﻿<Window x:Class="project2020.instructions"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:project2020"
+        mc:Ignorable="d"
+        Title="instructions" Height="450" Width="800"   WindowState="Maximized" 
+    Left="0" Top="0">
+
+    <Viewbox Stretch="Fill">
+        <Grid  x:Name="grid1" Height="420.666666666667" Width="793.333333333333">
+            <Grid.Background>
+                <ImageBrush ImageSource="IMG1/inst.png"/>
+            </Grid.Background>
+            <Image x:Name="close" HorizontalAlignment="Left" Height="52" VerticalAlignment="Top" Width="81" Source="IMG1\close.png" Margin="40,22,0,0" MouseDown="close_MouseDown" ToolTip="יציאה"/>
+
+
+
+        </Grid>
+    </Viewbox>
+</Window>
